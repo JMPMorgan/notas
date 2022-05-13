@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <!-- Config here. -->
+    <servlet>
+        <servlet-name>signInController</servlet-name>
+        <servlet-class>controlers.signInController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>logInController</servlet-name>
+        <servlet-class>controlers.logInController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>menuController</servlet-name>
+        <servlet-class>controlers.menuController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>showNotasController</servlet-name>
+        <servlet-class>controlers.showNotasController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarnotaController</servlet-name>
+        <servlet-class>controlers.editarnotaController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eliminarnotaController</servlet-name>
+        <servlet-class>controlers.eliminarnotaController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>profileController</servlet-name>
+        <servlet-class>controlers.profileController</servlet-class>
+    </servlet>
+</web-app>
